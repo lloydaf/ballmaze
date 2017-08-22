@@ -8,6 +8,10 @@ function Update () {
 	
 }
 
-function look(){
+function rotateRight(){
 	transform.Rotate(0,0,-5);
+}
+
+function rotateLeft(){
+	transform.Rotate(0,0,5);
 }
